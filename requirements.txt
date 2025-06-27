@@ -1,0 +1,8 @@
+streamlit
+torch
+torchaudio
+librosa
+numpy
+scikit-learn
+matplotlib
+soundfile
