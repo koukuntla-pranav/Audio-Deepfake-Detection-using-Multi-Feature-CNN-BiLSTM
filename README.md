@@ -17,7 +17,7 @@ This project implements a deep learning pipeline to detect **audio deepfakes** u
 - **Splits**:
   - `train` (labeled)
   - `dev` (labeled validation set)
-  - `eval` (unlabeled test set)
+  - `eval` (labeled test set)
 
 ---
 
