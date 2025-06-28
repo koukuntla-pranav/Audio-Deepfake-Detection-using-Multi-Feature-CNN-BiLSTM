@@ -92,6 +92,23 @@ python predict.py --file path/to/audio.flac
 streamlit run app.py
 ```
 
+---
+
+## 🎛️ Features
+
+- Supports uploading `.flac`, `.wav`, `.mp3`, `.ogg`, `.m4a`
+- Microphone recording supported for local use
+- Real-time prediction with deep learning (CNN + BiLSTM)
+- Multi-feature fusion: MFCC + Mel + CQT + CQCC (mocked)
+- Streamlit UI for demo & exploration
+
+---
+
+## 🎤 Recording Support
+
+- ✅ **Local (Desktop):** Record audio using your system mic
+- ❌ **Streamlit Cloud:** Recording not supported (due to PortAudio limitations)
+
 ⚠️ Make sure best_model.pth is available in the models/ folder.
 ## 📁 File Structure
 
